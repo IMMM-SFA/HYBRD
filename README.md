@@ -2,32 +2,25 @@
 
 <!-- Get rid of the metarepo instructions (the two sections below this) once you're done. -->
 
-# metarepo
-## [Check out the website for instructions](https://immm-sfa.github.io/metarepo)
-`metarepo` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.
+# HYBRD - HYBrid Regional Downscaling Model
 
 ## Purpose
-A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
+The HYBRD model is a high-resolution urban land downscaling model that adapts the sequential two-step process used by other urban growth prediction models (UGPMs) into a three-step procedure, inclusive of statistical models and cellular automata-based algorithms.  The hybrid approach refers to the sequence of three models, the first two statistical models governing demand for total urban land and controlling transitions in urban intensity, or alternatively, urban morphology classes, and the cellular automata model governing the downscaled portion through urban land extensification.  HYBRD also aims to evaluate alternative zoning policies to span the gap between global socioeconomic pressures and more localized policy controls. As a test case, HYBRD was applied to Los Angeles, California to examine varied urban morphology simulations among SSP scenarios.  
 
 <!-- Get rid of the metarepo instructions (the two sections above this) once you're done. -->
 
-# lastname-etal_year_journal
+# McManamay_2026_EnvironmentalModeling&Software
 
-**your Paper Title here (once published, include a link to the text)**
+**Downscaling regional urban land projections to high-resolution morphologies: the HYBRD model**
 
-First Last<sup>1\*</sup>, First Last<sup>1</sup>,  and First Last<sup>1, 2</sup>
+Ryan McManamay<sup>1\*</sup>
 
-<sup>1 </sup>Pacific Northwest National Laboratory, Richland, WA, USA.
+<sup>1 </sup>Baylor University, Waco, TX, USA
 
-<sup>2 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, Washington, DC, USA
-
-\* corresponding author:  email@myorg.gov
-
-## Abstract
-_your abstract here_
+\* corresponding author:  Ryan_McManamay@baylor.edu
 
 ## Journal reference
-_your journal reference_
+Coming soon
 
 ## Code reference
 References for each minted software release for all code involved.  
@@ -41,24 +34,18 @@ _your software reference here_
 ## Data reference
 
 ### Input data
-Reference for each minted data source for your input data.  For example:
-
-Human, I.M. (2021). My input dataset name [Data set]. DataHub. https://doi.org/some-doi-number
-
-_your input data references here_
+McManamay, R. (2025). HYBRD (High Resolution HYBrid Regional Downscaling) Model: Input data and Code (Version v1). MSD-LIVE Data Repository. https://doi.org/10.57931/2575229
 
 ### Output data
-Reference for each minted data source for your output data.  For example:
 
-Human, I.M. (2021). My output dataset name [Data set]. DataHub. https://doi.org/some-doi-number
-
-_your output data references here_
+McManamay, R., & Vernon, C. (2023). High-resolution (30-m) urban land cover projections for Los Angeles California Urban Area: 2010 to 2100 under SSP3 and SSP5 [Updated simulations based on population-driven urban intensity transitions] (Version v3) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/2575233
 
 
 ## Contributing modeling software
+Note the contributing software below is not required to run HYBRD
 | Model | Version | Repository Link | DOI |
 |-------|---------|-----------------|-----|
-| model 1 | version | link to code repository | link to DOI dataset |
+| SELECT| v1 | https://zenodo.org/records/6646698 | https://doi.org/10.57931/1887521|
 | model 2 | version | link to code repository | link to DOI dataset |
 | component 1 | version | link to code repository | link to DOI dataset |
 
